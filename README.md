@@ -1,4 +1,4 @@
-![trinitydiscord](https://github.com/DaedalusStudios/Module-2-homework/assets/19437158/69740968-c9c0-4d9c-aac6-a86696108215)# 02 Advanced CSS: Portfolio
+# 02 Advanced CSS: Portfolio
 
 ## Your Task
 
