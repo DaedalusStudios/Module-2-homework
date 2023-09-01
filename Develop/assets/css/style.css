@@ -66,6 +66,7 @@ main {
 nav {
   font-size: 1.5rem;
   display: flex;
+  
   background-color: var(--secondary)
 }
 
@@ -81,11 +82,14 @@ nav a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+
 }
 
 .textrow {
   width:100%;
   padding-bottom:40px;
+  margin-left:40px;
+  margin-right:40px;
 }
 
 .showcase {
@@ -136,4 +140,17 @@ li:hover a{
 .showcase:hover .header {
   transition: all 0.5s ease-in-out;
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 250, 0.75);
+}
+
+
+@media screen and (min-width: 768px) {
+   nav {
+    flex-direction:row;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+    flex-direction:column;
+    }
 }
