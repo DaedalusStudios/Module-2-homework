@@ -75,22 +75,33 @@ nav a {
   text-decoration: none;
   text-align: center;
 }
+
 .row {
-  width:100%;
-  padding:20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
+
+.textrow {
+  width:100%;
+  padding-bottom:40px;
+}
+
 .showcase {
-  flex: .25 .5 640px;
-  padding: 10px;
-  margin: 50px auto 50px auto;
+  flex: 0 1 auto;
+  padding: 25px;
+  margin: 30px 100px 30px 100px;
   text-align: center;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid;
+  
   border-radius: var(--border-radius); 
 }
 
-.showcase:hover {
+.big {
   
+  flex: 0 1 1200px;
+
 }
 
 .showcase header {
